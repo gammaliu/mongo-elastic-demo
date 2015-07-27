@@ -1,9 +1,9 @@
-package fr.pilato.demo.legacysearch.dao;
+package io.github.gammaliu.demo.dao;
 
-
-import fr.pilato.demo.legacysearch.domain.Person;
 
 import java.util.Collection;
+
+import io.github.gammaliu.demo.domain.Person;
 
 
 /**

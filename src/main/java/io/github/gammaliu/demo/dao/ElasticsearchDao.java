@@ -17,12 +17,14 @@
  * under the License.
  */
 
-package fr.pilato.demo.legacysearch.dao;
+package io.github.gammaliu.demo.dao;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import fr.pilato.demo.legacysearch.domain.Person;
+
 import fr.pilato.elasticsearch.tools.ElasticsearchBeyonder;
+import io.github.gammaliu.demo.domain.Person;
+
 import org.elasticsearch.action.bulk.BulkProcessor;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.bulk.BulkResponse;

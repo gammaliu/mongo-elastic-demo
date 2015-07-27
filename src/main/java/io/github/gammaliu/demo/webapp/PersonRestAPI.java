@@ -1,8 +1,10 @@
-package fr.pilato.demo.legacysearch.webapp;
+package io.github.gammaliu.demo.webapp;
 
 import com.google.common.base.Optional;
-import fr.pilato.demo.legacysearch.domain.Person;
-import fr.pilato.demo.legacysearch.service.PersonService;
+
+import io.github.gammaliu.demo.domain.Person;
+import io.github.gammaliu.demo.service.PersonService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import restx.annotations.*;

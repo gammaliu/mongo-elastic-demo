@@ -8,9 +8,9 @@
 
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/dpilato</property>
-        <property name="hibernate.connection.username">dpilato</property>
-        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/exampledb</property>
+        <property name="hibernate.connection.username">dbuser</property>
+        <property name="hibernate.connection.password">dbuser</property>
 
         <!-- JDBC connection pool (use the built-in) -->
         <property name="connection.pool_size">1</property>

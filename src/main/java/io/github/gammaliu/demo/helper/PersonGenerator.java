@@ -1,11 +1,12 @@
-package fr.pilato.demo.legacysearch.helper;
+package io.github.gammaliu.demo.helper;
 
 
-import fr.pilato.demo.legacysearch.domain.Address;
-import fr.pilato.demo.legacysearch.domain.GeoPoint;
-import fr.pilato.demo.legacysearch.domain.Marketing;
-import fr.pilato.demo.legacysearch.domain.Person;
 import org.apache.commons.lang.time.DateUtils;
+
+import io.github.gammaliu.demo.domain.Address;
+import io.github.gammaliu.demo.domain.GeoPoint;
+import io.github.gammaliu.demo.domain.Marketing;
+import io.github.gammaliu.demo.domain.Person;
 
 import java.io.IOException;
 import java.text.ParseException;

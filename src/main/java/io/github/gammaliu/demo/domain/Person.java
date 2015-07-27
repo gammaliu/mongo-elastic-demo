@@ -17,11 +17,12 @@
  * under the License.
  */
 
-package fr.pilato.demo.legacysearch.domain;
+package io.github.gammaliu.demo.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import fr.pilato.demo.legacysearch.serializer.CustomDateSerializer;
+
+import io.github.gammaliu.demo.serializer.CustomDateSerializer;
 
 import javax.persistence.*;
 import java.util.Date;

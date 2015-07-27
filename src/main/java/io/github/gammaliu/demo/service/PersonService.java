@@ -1,12 +1,14 @@
-package fr.pilato.demo.legacysearch.service;
+package io.github.gammaliu.demo.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import fr.pilato.demo.legacysearch.dao.ElasticsearchDao;
-import fr.pilato.demo.legacysearch.dao.HibernateService;
-import fr.pilato.demo.legacysearch.dao.PersonDao;
-import fr.pilato.demo.legacysearch.dao.SearchDao;
-import fr.pilato.demo.legacysearch.domain.Person;
-import fr.pilato.demo.legacysearch.helper.PersonGenerator;
+
+import io.github.gammaliu.demo.dao.ElasticsearchDao;
+import io.github.gammaliu.demo.dao.HibernateService;
+import io.github.gammaliu.demo.dao.PersonDao;
+import io.github.gammaliu.demo.dao.SearchDao;
+import io.github.gammaliu.demo.domain.Person;
+import io.github.gammaliu.demo.helper.PersonGenerator;
+
 import org.dozer.DozerBeanMapper;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.common.Strings;

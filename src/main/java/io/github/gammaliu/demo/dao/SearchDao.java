@@ -1,8 +1,9 @@
-package fr.pilato.demo.legacysearch.dao;
+package io.github.gammaliu.demo.dao;
 
 
-import fr.pilato.demo.legacysearch.domain.Person;
 import org.hibernate.criterion.Criterion;
+
+import io.github.gammaliu.demo.domain.Person;
 
 import java.util.Collection;
 

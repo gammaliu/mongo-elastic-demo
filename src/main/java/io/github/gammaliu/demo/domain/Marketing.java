@@ -1,4 +1,4 @@
-package fr.pilato.demo.legacysearch.domain;
+package io.github.gammaliu.demo.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

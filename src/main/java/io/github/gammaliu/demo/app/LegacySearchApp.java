@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package fr.pilato.demo.legacysearch.app;
+package io.github.gammaliu.demo.app;
 
 
 import com.google.common.base.Optional;

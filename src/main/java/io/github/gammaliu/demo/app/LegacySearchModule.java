@@ -1,14 +1,15 @@
-package fr.pilato.demo.legacysearch.app;
+package io.github.gammaliu.demo.app;
 
-import fr.pilato.demo.legacysearch.domain.Address;
-import fr.pilato.demo.legacysearch.domain.Marketing;
-import fr.pilato.demo.legacysearch.domain.Person;
 import org.dozer.DozerBeanMapper;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.gammaliu.demo.domain.Address;
+import io.github.gammaliu.demo.domain.Marketing;
+import io.github.gammaliu.demo.domain.Person;
 import restx.factory.Module;
 import restx.factory.Provides;
 

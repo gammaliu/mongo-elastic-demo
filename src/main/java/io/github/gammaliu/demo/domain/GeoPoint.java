@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package fr.pilato.demo.legacysearch.domain;
+package io.github.gammaliu.demo.domain;
 
 import javax.persistence.Embeddable;
 

@@ -1,4 +1,4 @@
-package fr.pilato.demo.legacysearch.dao;
+package io.github.gammaliu.demo.dao;
 
 import org.hibernate.Query;
 import org.hibernate.Session;

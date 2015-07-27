@@ -1,4 +1,4 @@
-package fr.pilato.demo.legacysearch.helper;
+package io.github.gammaliu.demo.helper;
 
 
 import java.io.*;

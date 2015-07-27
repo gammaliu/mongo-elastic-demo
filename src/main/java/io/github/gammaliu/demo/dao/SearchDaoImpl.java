@@ -1,7 +1,6 @@
-package fr.pilato.demo.legacysearch.dao;
+package io.github.gammaliu.demo.dao;
 
 
-import fr.pilato.demo.legacysearch.domain.Person;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Criterion;
@@ -9,6 +8,8 @@ import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import io.github.gammaliu.demo.domain.Person;
 import restx.factory.Component;
 
 import java.util.Collection;

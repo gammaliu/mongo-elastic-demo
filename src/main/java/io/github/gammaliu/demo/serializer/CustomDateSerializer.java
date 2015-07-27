@@ -1,4 +1,4 @@
-package fr.pilato.demo.legacysearch.serializer;
+package io.github.gammaliu.demo.serializer;
 
 
 import com.fasterxml.jackson.core.JsonGenerator;
