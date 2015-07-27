@@ -4,15 +4,11 @@ Add Search to Legacy Application
 Introduction
 ------------
 
-This is a demo project to show how to add elasticsearch to a legacy SQL project.
-
-This branch modifies default mapping for elasticsearch documents
-and will provide search by prefix feature.
+This is a demo project to show how to combine elasticsearch with mongodb, using ETL.
 
 Installation
 ------------
 
-You need to have completed [branch 02-bulk](https://github.com/dadoonet/legacy-search/tree/02-bulk)
 
 Run it!
 -------
@@ -20,9 +16,6 @@ Run it!
 Compile and restart the application
 
 ```
-# Delete the index
-DELETE person
-
 mvn clean package jetty:run
 
 # Inject 10000 docs
@@ -34,4 +27,3 @@ You can then access the application using your browser: [http://127.0.0.1:8080/]
 Next step
 ---------
 
-Look at [branch 04-aggs](https://github.com/dadoonet/legacy-search/tree/04-aggs)
